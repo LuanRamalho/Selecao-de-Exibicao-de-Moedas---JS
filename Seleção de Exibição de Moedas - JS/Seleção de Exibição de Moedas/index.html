@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seleção de Moedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Seleção de Moedas de Dinheiro</h1>
+    <p>Escolha uma moeda de dinheiro:</p>
+    <select id="moeda-seletor">
+      <option value="">Selecione uma Moeda</option>
+      <option value="1 Centavo">1 Centavo</option>
+      <option value="5 Centavos">5 Centavos</option>
+      <option value="10 Centavos">10 Centavos</option>
+      <option value="25 Centavos">25 Centavos</option>
+      <option value="50 Centavos">50 Centavos</option>
+      <option value="1 Real">1 Real</option>
+    </select>
+    <button id="exibir-moeda" class="button">Exibir Moeda</button>
+    <div id="imagem-container">
+      <img id="moeda-imagem" src="" alt="Imagem da Moeda" style="display: none;">
+    </div>
+    <p id="info-texto"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
